@@ -1,0 +1,30 @@
+@import '/styles/variables.scss';
+/**------------ mixin ------------**/
+// mixin to locate center position using flexbox.
+@mixin flex-center() {
+  justify-content: center;
+  display: flex;
+}
+/**-------------------------------**/
+
+.container {
+  display: flex;
+  width: calc(100vw - 16px);
+  height: $header_height;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation_item {
+  margin: 0px 4px;
+}

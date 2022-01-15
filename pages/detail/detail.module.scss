@@ -1,0 +1,38 @@
+@import '/styles/variables.scss';
+
+/**------------ mixin ------------**/
+// mixin to locate center position using flexbox.
+@mixin flex-center() {
+  justify-content: center;
+  display: flex;
+}
+/**-------------------------------**/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: calc(100vw - 16px);
+  height: 100vh;
+  margin: 0px 8px;
+  position: relative;
+  // margin-left: 8px;
+  // margin-right: 8px;
+  // margin-top: 16px;
+}
+
+.contents {
+  @include flex-center();
+  flex-direction: column;
+  position: absolute;
+  top: $header_height;
+  margin: 16px 0px;
+}
+
+.title {
+  font-size: 24px;
+  margin: auto;
+}
+
+.description {
+  text-align: center;
+}

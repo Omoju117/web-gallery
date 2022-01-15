@@ -1,0 +1,44 @@
+@import './../../styles/variables.scss';
+
+// * * ------------ mixin ------------ * *
+/// mixin to locate center position using flexbox.
+@mixin flex-center() {
+  justify-content: center;
+  display: flex;
+}
+/**-------------------------------**/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: calc(100vw - 16px);
+  height: 100vh;
+  margin: auto;
+  position: relative;
+}
+
+.contents {
+  position: absolute;
+  top: calc($header_height);
+}
+
+.title {
+  @include flex-center();
+  color: black;
+}
+
+.card_list {
+  // display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  @include flex-center();
+  margin-bottom: 16px;
+}
+
+.card {
+  @include flex-center();
+  color: coral;
+  width: 45vw;
+}

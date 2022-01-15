@@ -1,0 +1,14 @@
+/**------------ mixin ------------**/
+// mixin to locate center position using flexbox.
+@mixin flex-center() {
+  justify-content: center;
+  display: flex;
+}
+/**-------------------------------**/
+
+.container {
+  @include flex-center();
+  width: calc(100vw - 16px);
+  height: 10vh;
+  margin: 0px 8px;
+}
