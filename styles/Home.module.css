@@ -56,6 +56,13 @@
   line-height: 1.5;
 }
 
+.my_description {
+  margin: 4rem 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: coral;
+}
+
 .code {
   padding: 0.75rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
