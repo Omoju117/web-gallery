@@ -14,13 +14,13 @@ const Work: VFC = () => {
           <Logo />
           <ul className={style.card_list}>
             <li className={style.card}>
-              <Card imageUrl='/asset/images/AtLeastTheyExcited.svg' />
+              <Card imageUrl='/asset/images/handcraft.svg' />
             </li>
             <li className={style.card}>
               <Card imageUrl='/asset/images/color_pattern.svg' />
             </li>
             <li className={style.card}>
-              <Card imageUrl='/asset/images/men_&_his_dog.svg' />
+              <Card imageUrl='/asset/images/set_designer.svg' />
             </li>
             <li className={style.card}>
               <Card imageUrl='/asset/images/men_&_his_dog.svg' />
