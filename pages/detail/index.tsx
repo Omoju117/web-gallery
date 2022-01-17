@@ -17,7 +17,7 @@ const Detail: VFC = () => {
   return (
     <div className={style.container}>
       <Header />
-      <section className={style.contents}>
+      <section className={`${style.contents} ${style.fadeIn}`}>
         <span className={style.title}>{debug}</span>
         <p className={style.description}>
           I was lucky to collaborate with Bally to create these three artworks

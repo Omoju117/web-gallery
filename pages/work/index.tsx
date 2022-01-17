@@ -12,7 +12,7 @@ const Work: VFC = () => {
         <Header />
         <section className={style.contents}>
           <Logo />
-          <ul className={style.card_list}>
+          <ul className={`${style.card_list} ${style.fadeIn}`}>
             <li className={style.card}>
               <Card imageUrl='/asset/images/handcraft.svg' />
             </li>
