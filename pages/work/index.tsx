@@ -17,19 +17,19 @@ const Work: VFC = () => {
               <Card imageUrl='/asset/images/handcraft.svg' />
             </li>
             <li className={style.card}>
-              <Card imageUrl='/asset/images/color_pattern.svg' />
+              <Card imageUrl='/asset/images/clothe_designer.svg' />
+            </li>
+            <li className={style.card}>
+              <Card imageUrl='/asset/images/tailor_work.svg' />
             </li>
             <li className={style.card}>
               <Card imageUrl='/asset/images/set_designer.svg' />
             </li>
             <li className={style.card}>
-              <Card imageUrl='/asset/images/men_&_his_dog.svg' />
+              <Card imageUrl='/asset/images/color_pattern.svg' />
             </li>
             <li className={style.card}>
-              <Card imageUrl='/asset/images/men_&_his_dog.svg' />
-            </li>
-            <li className={style.card}>
-              <Card imageUrl='/asset/images/men_&_his_dog.svg' />
+              <Card imageUrl='/asset/images/shoe_designer.svg' />
             </li>
             <li className={style.card}>
               <Card imageUrl='/asset/images/men_&_his_dog.svg' />
