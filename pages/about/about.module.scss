@@ -1,0 +1,58 @@
+@import '/styles/variables.scss';
+
+/**------------ mixin ------------**/
+// mixin to locate center position using flexbox.
+@mixin flex-center() {
+  justify-content: center;
+  display: flex;
+}
+/**-------------------------------**/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: calc(100vw - 16px);
+  height: 100vh;
+  position: relative;
+  padding: 0px 8px;
+}
+
+.contents {
+  @include flex-center();
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  top: $header_height;
+}
+
+.contents_wrapper {
+  @include flex-center();
+  flex-direction: column;
+  @media screen and (min-width: 460px) {
+    padding: 0px 25vw;
+  }
+  @media screen and (max-width: 459px) {
+    padding: 0px 24px;
+  }
+}
+
+.description {
+  text-align: left;
+}
+
+.fadeIn {
+  animation-name: fadeInAnime;
+  animation-duration: 1.75s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInAnime {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

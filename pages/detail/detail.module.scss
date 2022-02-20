@@ -11,6 +11,7 @@
 .container {
   display: flex;
   flex-direction: column;
+  // justify-content: center;
   width: calc(100vw - 16px);
   height: 100vh;
   margin: 0px 8px;
@@ -23,6 +24,7 @@
 .contents {
   @include flex-center();
   flex-direction: column;
+  width: calc(100vw - 16px);
   position: absolute;
   top: $header_height;
   margin: 16px 0px;

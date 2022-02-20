@@ -9,7 +9,7 @@
 
 .container {
   display: flex;
-  width: calc(100vw - 16px);
+  width: 100%;
   height: $header_height;
   justify-content: space-between;
   align-items: center;

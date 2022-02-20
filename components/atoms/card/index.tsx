@@ -28,7 +28,6 @@ const Card: VFC<Props> = ({ imageUrl }) => {
         />
       </Link>
       <div className={style.work_title}>Work Title</div>
-      {/* <div className={style.price}>$70.00</div> */}
     </div>
   );
 };

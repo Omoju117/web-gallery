@@ -1,4 +1,4 @@
-@import './../../styles/variables.scss';
+@import './../styles/variables.scss';
 
 // * * ------------ mixin ------------ * *
 /// mixin to locate center position using flexbox.
@@ -39,8 +39,7 @@
 
 .card {
   @include flex-center();
-  color: coral;
-  width: 45vw;
+  width: 40vw;
   margin: 0px 8px;
 }
 
