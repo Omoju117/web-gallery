@@ -18,6 +18,7 @@
 }
 
 .contents {
+  width: 100%;
   position: absolute;
   top: calc($header_height);
 }
@@ -32,7 +33,17 @@
   flex-wrap: wrap;
   flex-direction: row;
   margin: 0;
-  padding: 0;
+  padding: 16px;
+  @include flex-center();
+  margin-bottom: 16px;
+}
+
+.card_list_style_big {
+  // display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0;
+  padding: 16px;
   @include flex-center();
   margin-bottom: 16px;
 }
@@ -41,6 +52,11 @@
   @include flex-center();
   width: 40vw;
   margin: 0px 8px;
+}
+
+.card_style_big {
+  @include flex-center();
+  width: 100%;
 }
 
 .fadeIn {

@@ -6,7 +6,7 @@ const NOTION_ARTICLE_PAGE =
   'https://forest-pufferfish-25b.notion.site/Article-Page-58eb5cd025ff409aa679db3f2021a8bb';
 
 const Header: VFC = () => {
-  const debug = 'Header';
+  const debug = 'Kazuki Endo';
   return (
     <div className={style.container}>
       <span>{debug}</span>

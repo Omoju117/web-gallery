@@ -4,7 +4,6 @@ import Header from '../../components/templates/header';
 import style from './about.module.scss';
 import { commonImagePath } from '../../data/data';
 import Footer from '../../components/templates/footer';
-import Logo from '../../components/atoms/logo';
 
 const About: VFC = () => {
   const imageUrl = 'sample_tippman_image.png';
@@ -13,7 +12,7 @@ const About: VFC = () => {
     <div className={style.container}>
       <Header />
       <section className={`${style.contents} ${style.fadeIn}`}>
-        <Logo />
+        {/* <Logo /> */}
         <div className={style.contents_wrapper}>
           <Image
             src={commonImagePath + imageUrl}
@@ -38,9 +37,8 @@ const About: VFC = () => {
             <h3>Profile</h3>
             <p>Academic history: Seijo University</p>
             <p>Career: Web developer, Illustrator</p>
-            <p>TOEFL iBT Score: 86</p>
+            <p>TOEFL iBT Score: 95</p>
             <p>TOEIC Score: 885</p>
-            <p>Instagram: @kazukiendo117</p>
           </section>
         </div>
         <Footer />
