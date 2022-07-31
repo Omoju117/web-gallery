@@ -28,7 +28,6 @@ const About: VFC = () => {
             <p>Academic history: Seijo University</p>
             <p>Career: Web developer, Illustrator</p>
             <p>TOEFL iBT Score: 95</p>
-            <p>TOEIC Score: 885</p>
           </section>
         </div>
         <Footer />

@@ -1,5 +1,6 @@
 import { VFC } from 'react';
 import Card from '../components/atoms/card';
+import Footer from '../components/templates/footer';
 import Header from '../components/templates/header';
 import style from './work.module.scss';
 
@@ -21,7 +22,7 @@ const Work: VFC = () => {
               <Card imageUrl='/asset/images/ChristmasCard.svg' />
             </li>
           </ul>
-          {/* <Footer /> */}
+          <Footer />
         </section>
       </div>
     </>
