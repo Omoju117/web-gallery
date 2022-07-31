@@ -12,12 +12,12 @@ const About: VFC = () => {
         <div className={style.contents_wrapper}>
           <h1>Profile</h1>
           <p className={style.description}>
-            I’m Kazuki Endo, an Japanese illustrator and web developer, living
-            in Kanagawa . I do everything from web development to illustration
-            and painting. My work is a combination of things that are found in
-            daily life and changing perspectives. I use playful and comfortable
-            colors that feel people grace and unusually shaped objects to create
-            unique work for any situation or client.
+            I’m Kazuki Endo, a Japanese illustrator and web developer, living in
+            Kanagawa. I do everything from web development to illustration and
+            painting. My work is a combination of things that are found in daily
+            life and changing perspectives. I use playful and comfortable colors
+            that make people feel graceful and unusually shaped objects to
+            create unique works for any situation or client.
           </p>
           <section className={style.profile}>
             <h3>Information</h3>
