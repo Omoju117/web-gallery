@@ -22,7 +22,7 @@ const Work: VFC = () => {
               <Card imageUrl='/asset/images/ChristmasCard.svg' />
             </li>
           </ul>
-          <Footer />
+          {/* <Footer /> */}
         </section>
       </div>
     </>
