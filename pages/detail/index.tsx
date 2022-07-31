@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Header from '../../components/templates/header';
 import style from './detail.module.scss';
 import isWorkImage from '../../type_guard/workImage';
+import Link from 'next/link';
 
 const Detail: VFC = () => {
   const debug = 'Detail';
@@ -12,7 +13,6 @@ const Detail: VFC = () => {
   if (isWorkImage(router.query)) {
     imageUrl = router.query.imageUrl;
   }
-  console.log(imageUrl);
 
   return (
     <div className={style.container}>
@@ -25,6 +25,9 @@ const Detail: VFC = () => {
           Campaign.
         </p>
         <Image src={imageUrl} width={300} height={300} alt='work image' />
+        <Link passHref href='/'>
+          <a className={style.navigation_back}>Back</a>
+        </Link>
       </section>
     </div>
   );
