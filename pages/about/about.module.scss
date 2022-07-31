@@ -14,11 +14,10 @@
   width: calc(100vw - 16px);
   height: 100vh;
   position: relative;
-  padding: 0px 8px;
+  margin: auto;
 }
 
 .contents {
-  @include flex-center();
   flex-direction: column;
   width: 100%;
   position: absolute;

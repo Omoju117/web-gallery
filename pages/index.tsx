@@ -11,18 +11,23 @@ const Work: VFC = () => {
         <Header />
         <section className={style.contents}>
           {/* <Logo /> */}
-          <ul className={`${style.card_list_style_big} ${style.fadeIn}`}>
-            <li className={style.card_style_big}>
-              <Card imageUrl='/asset/images/PoolSide.svg' />
-            </li>
-            <li className={style.card_style_big}>
-              <Card imageUrl='/asset/images/MenAndHisDog.svg' />
-            </li>
-            <li className={style.card_style_big}>
-              <Card imageUrl='/asset/images/ChristmasCard.svg' />
-            </li>
-          </ul>
-          <Footer />
+          <div className={style.fadeIn_wrap}>
+            <div className={style.catch_copy}>
+              <span>Uniquely Shaped Nature, Furniture, Unexpected things</span>
+            </div>
+            <ul className={`${style.card_list_style_big}`}>
+              <li className={style.card_style_big}>
+                <Card imageUrl='/asset/images/PoolSide.svg' />
+              </li>
+              <li className={style.card_style_big}>
+                <Card imageUrl='/asset/images/MenAndHisDog.svg' />
+              </li>
+              <li className={style.card_style_big}>
+                <Card imageUrl='/asset/images/ChristmasCard.svg' />
+              </li>
+            </ul>
+            <Footer />
+          </div>
         </section>
       </div>
     </>
