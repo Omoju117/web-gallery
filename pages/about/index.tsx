@@ -1,25 +1,15 @@
 import { VFC } from 'react';
-import Image from 'next/image';
 import Header from '../../components/templates/header';
 import style from './about.module.scss';
-import { commonImagePath } from '../../data/data';
 import Footer from '../../components/templates/footer';
 
 const About: VFC = () => {
-  const imageUrl = 'sample_tippman_image.png';
-  const squareSize = 500;
   return (
     <div className={style.container}>
       <Header />
       <section className={`${style.contents} ${style.fadeIn}`}>
         {/* <Logo /> */}
         <div className={style.contents_wrapper}>
-          <Image
-            src={commonImagePath + imageUrl}
-            width={squareSize}
-            height={squareSize}
-            alt='studio image'
-          />
           <h1>Contact</h1>
           <p className={style.description}>
             Hello, I’m Haley, an American illustrator from Rochester, New York

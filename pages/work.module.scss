@@ -29,7 +29,6 @@
 }
 
 .card_list {
-  // display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   margin: 0;
@@ -39,11 +38,9 @@
 }
 
 .card_list_style_big {
-  // display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin: 0;
-  padding: 16px;
+  padding: 0;
   @include flex-center();
   margin-bottom: 16px;
 }

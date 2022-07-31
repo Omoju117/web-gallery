@@ -27,7 +27,7 @@ const Card: VFC<Props> = ({ imageUrl }) => {
           alt='work image'
         />
       </Link>
-      <div className={style.work_title}>Work Title</div>
+      {/* <div className={style.work_title}>Work Title</div> */}
     </div>
   );
 };
