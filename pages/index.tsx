@@ -21,9 +21,6 @@ const Work: VFC = () => {
             <li className={style.card_style_big}>
               <Card imageUrl='/asset/images/ChristmasCard.svg' />
             </li>
-            <li className={style.card_style_big}>
-              <Card imageUrl='/asset/images/LivingRoom.svg' />
-            </li>
           </ul>
           <Footer />
         </section>
