@@ -1,6 +1,5 @@
 import { VFC } from 'react';
 import Card from '../components/atoms/card';
-import Footer from '../components/templates/footer';
 import Header from '../components/templates/header';
 import style from './work.module.scss';
 
