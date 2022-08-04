@@ -13,7 +13,7 @@ const Work: VFC = () => {
           {/* <Logo /> */}
           <div className={style.fadeIn_wrap}>
             <div className={style.catch_copy}>
-              <span>Uniquely Shaped Nature, Furniture, Unexpected things</span>
+              <span>Uniquely Shaped Nature, Furniture, Common objects</span>
             </div>
             <ul className={`${style.card_list_style_big}`}>
               <li className={style.card_style_big}>
