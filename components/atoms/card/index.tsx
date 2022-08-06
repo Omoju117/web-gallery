@@ -2,12 +2,13 @@ import { VFC } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import style from './card.module.scss';
+import { WorkInfo } from '../../../data/data';
 
 type Props = {
-  imageUrl: string;
+  workInfo: WorkInfo;
 };
 
-const Card: VFC<Props> = ({ imageUrl }) => {
+const Card: VFC<Props> = ({ workInfo }) => {
   const squareValue = 250;
   return (
     <div className={style.container}>
@@ -16,18 +17,17 @@ const Card: VFC<Props> = ({ imageUrl }) => {
         href={{
           pathname: '/detail',
           query: {
-            imageUrl: imageUrl,
+            workInfo: JSON.stringify(workInfo),
           },
         }}
       >
         <Image
-          src={imageUrl}
+          src={workInfo.imageUrl}
           width={squareValue}
           height={squareValue}
           alt='work image'
         />
       </Link>
-      {/* <div className={style.work_title}>Work Title</div> */}
     </div>
   );
 };

@@ -13,8 +13,7 @@ const About: VFC = () => {
           <h1>Profile</h1>
           <p className={style.description}>
             I’m Kazuki Endo, a Japanese illustrator and web developer, living in
-            Kanagawa. I do everything from web development to illustration and
-            painting. My work is a combination of things that are found in daily
+            Kanagawa. My work is a combination of things that are found in daily
             life and changing perspectives. I use playful and comfortable colors
             that make people feel graceful and unusually shaped objects to
             create unique works.
